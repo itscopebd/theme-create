@@ -11,11 +11,19 @@
   }
 }
 {%- endstyle -%}
+
+
+{{ billing_address.country }}
+
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="section-{{ section.id }}-padding">
     {{ section.settings.custom_liquid }}
   </div>
 </div>
+
+
+
+
 
 {% schema %}
 {
