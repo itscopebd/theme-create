@@ -13,10 +13,11 @@
 {%- endstyle -%}
 
 
-{{ billing_address.country }}
+
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="section-{{ section.id }}-padding">
+    {{ billing_address.country }}
     {{ section.settings.custom_liquid }}
   </div>
 </div>
